@@ -62,7 +62,7 @@ export class TodoitemsService {
 
     for (const i of prepop) {
       try {
-        await this.create(i);
+        // await this.create(i);
       } catch (err) {
         if (err.code !== 11000) {
           throw new Error(
